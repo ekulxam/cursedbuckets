@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "cursedbuckets",
+  "version": "${version}",
+
+  "name": "Cursed Buckets",
+  "description": "Bater Wucket > Water Bucket",
+  "authors": [
+    "Survivalblock"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "survivalblock.cursedbuckets.CursedBuckets"
+    ],
+    "client": [
+      "survivalblock.cursedbuckets.CursedBucketsClient"
+    ]
+  },
+  "mixins": [
+    "cursedbuckets.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
