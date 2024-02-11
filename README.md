@@ -1,2 +1,11 @@
-# cursedbuckets
-Bater Wucket supremacy <img src="https://github.com/ekulxam/cursedbuckets/blob/58a499023642f7ba6934edbca767b1349e0aa9a9/src/main/resources/assets/cursedbuckets/textures/item/bater_wucket.png"></img>
+Adds an assortment of "cursed" buckets to minecraft!
+
+Bater Wucket - infinite water bucket
+Bava Lucket - infinite lava bucket, also acts as an infinite fuel source
+Bilk Mucket - infinite milk bucket
+Bucket of Axolotl Sun - see the second reddit link below
+
+Inspired by:
+https://www.reddit.com/r/PhoenixSC/comments/j62wbw/bater_wucket/
+https://www.reddit.com/r/Minecrafthmmm/comments/u4zzab/hmmm/
+https://modrinth.com/mod/things
