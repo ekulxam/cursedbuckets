@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "CursedBucketsMixin"
   ],
   "injectors": {
     "defaultRequire": 1
