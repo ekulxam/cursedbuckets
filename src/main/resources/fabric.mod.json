@@ -10,11 +10,12 @@
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/ekulxam/cursedbuckets",
+    "issues": "https://github.com/ekulxam/cursedbuckets/issues"
   },
 
   "license": "MIT License",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/cursedbuckets/icon.png",
 
   "environment": "*",
   "entrypoints": {
