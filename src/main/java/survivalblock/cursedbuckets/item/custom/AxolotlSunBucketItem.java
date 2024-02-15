@@ -45,8 +45,8 @@ public class AxolotlSunBucketItem extends Item {
             user.damage(DamageSource.ON_FIRE
                     .setBypassesProtection()
                     .setBypassesArmor()
-                    .setUnblockable()
                     .setOutOfWorld()
+                    .setUnblockable()
                     .setScaledWithDifficulty(),
                     (float) (Math.abs(user.getMaxHealth()) + Math.abs(user.getHealth() + Math.abs(user.getAbsorptionAmount())))*100
             );

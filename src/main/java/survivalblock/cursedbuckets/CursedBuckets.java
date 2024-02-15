@@ -5,8 +5,6 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import survivalblock.cursedbuckets.item.ModItems;
-import survivalblock.cursedbuckets.item.custom.AxolotlSunBucketItem;
-import survivalblock.cursedbuckets.item.custom.InfiniteBucketItem;
 
 import static survivalblock.cursedbuckets.item.ModItems.AXOLOTL_SUN_BUCKET;
 import static survivalblock.cursedbuckets.item.ModItems.BAVA_LUCKET;

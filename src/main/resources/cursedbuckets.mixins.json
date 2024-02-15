@@ -4,9 +4,9 @@
   "package": "survivalblock.cursedbuckets.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "CauldronBehaviorMixin"
   ],
   "client": [
-    "CursedBucketsMixin"
   ],
   "injectors": {
     "defaultRequire": 1
