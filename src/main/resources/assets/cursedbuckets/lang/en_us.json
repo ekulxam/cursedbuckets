@@ -1,0 +1,19 @@
+{
+  "item.cursedbuckets.bater_wucket": "Bater Wucket",
+  "item.cursedbuckets.bava_lucket": "Bava Lucket",
+  "item.cursedbuckets.bilk_mucket": "Bilk Mucket",
+  "item.cursedbuckets.axolotl_sun_bucket": "Bucket of Axolotl Sun",
+  "item.cursedbuckets.infinitebucketitem.shorten": "§kThis §kitem §khas §kunlimited §kcapacity",
+  "item.cursedbuckets.infinitebucketitem.expand": "This item has unlimited capacity",
+  "item.cursedbuckets.axolotl_sun_bucket.warninghidden": "Important: §kDO §kNOT §kEAT",
+  "item.cursedbuckets.axolotl_sun_bucket.warningshown": "Important: DO NOT EAT",
+  "item.cursedbuckets.infinitebucketitem.lavaimmune": "Does not burn in lava or fire",
+  "advancements.water_bucket_challenge.title": "Water Bucket Challenge",
+  "advancements.water_bucket_challenge.descr": "New heaviest item just dropped",
+  "advancements.hotter_stuff.title": "Hotter Stuff",
+  "advancements.hotter_stuff.descr": "How does this item not turn your inventory into a furnace?",
+  "advancements.bring_home_the_milk.title": "Bring Home the Milk",
+  "advancements.bring_home_the_milk.descr": "Will your dad come home now?",
+  "item.cursedbuckets.infinitebucketitem.fuelsource": "Can be used as a fuel source",
+  "item.cursedbuckets.infinitebucketitem.infinityfuel": "Acts as an infinite fuel source"
+}
