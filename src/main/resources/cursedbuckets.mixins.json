@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "survivalblock.cursedbuckets.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CauldronBehaviorMixin",
+    "DispenserBehaviorMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
