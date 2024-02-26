@@ -139,7 +139,7 @@ public class InfiniteBucketItem extends Item implements FluidModificationItem {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        if(Screen.hasShiftDown() && Screen.hasAltDown()){
+        if(Screen.hasShiftDown() || Screen.hasAltDown()){
             tooltip.add(Text.translatable("item.cursedbuckets.infinitebucketitem.expand").formatted(Formatting.GOLD));
             if(this.fluid.isIn(FluidTags.LAVA)) {
                 tooltip.add(Text.translatable("item.cursedbuckets.infinitebucketitem.lavaimmune").formatted(Formatting.GOLD));

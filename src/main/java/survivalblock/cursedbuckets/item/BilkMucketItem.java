@@ -62,7 +62,7 @@ public class BilkMucketItem extends Item{
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        if(Screen.hasShiftDown()){
+        if(Screen.hasShiftDown() || Screen.hasAltDown()){
             tooltip.add(Text.translatable("item.cursedbuckets.infinitebucketitem.expand").formatted(Formatting.GOLD));
         } else {
             tooltip.add(Text.translatable("item.cursedbuckets.infinitebucketitem.shorten").formatted(Formatting.GOLD));
