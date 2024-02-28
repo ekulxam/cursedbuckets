@@ -79,6 +79,7 @@ public class InfiniteBucketItem extends Item implements FluidModificationItem {
         }
     }
 
+    @SuppressWarnings("deprecation")
     public boolean placeFluid(@Nullable PlayerEntity player, World world, BlockPos pos, @Nullable BlockHitResult hitResult) {
         if (!(this.fluid instanceof FlowableFluid)) {
             return false;
@@ -89,7 +90,7 @@ public class InfiniteBucketItem extends Item implements FluidModificationItem {
             boolean bl = blockState.canBucketPlace(this.fluid);
             boolean bl2 = blockState.isAir() || bl || block instanceof FluidFillable && ((FluidFillable) block).canFillWithFluid(world, pos, blockState, this.fluid);
             if (!bl2) {
-                return hitResult != null && this.placeFluid(player, world, hitResult.getBlockPos().offset(hitResult.getSide()), (BlockHitResult) null);
+                return hitResult != null && this.placeFluid(player, world, hitResult.getBlockPos().offset(hitResult.getSide()), null);
             } else if (world.getDimension().ultrawarm() && this.fluid.isIn(FluidTags.WATER)) {
                 // nether evaporation
                 int i = pos.getX();
@@ -122,6 +123,7 @@ public class InfiniteBucketItem extends Item implements FluidModificationItem {
         }
     }
 
+    @SuppressWarnings("deprecation")
     protected void playEmptyingSound(@Nullable PlayerEntity player, WorldAccess world, BlockPos pos) {
         // play bucket place fluid sound
         SoundEvent soundEvent = this.fluid.isIn(FluidTags.LAVA) ? SoundEvents.ITEM_BUCKET_EMPTY_LAVA : SoundEvents.ITEM_BUCKET_EMPTY;
@@ -137,6 +139,7 @@ public class InfiniteBucketItem extends Item implements FluidModificationItem {
     }
 
 
+    @SuppressWarnings("deprecation")
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         if(Screen.hasShiftDown() || Screen.hasAltDown()){
