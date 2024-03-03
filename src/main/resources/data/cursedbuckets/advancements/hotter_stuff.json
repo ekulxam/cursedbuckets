@@ -22,11 +22,7 @@
           {
             "items": [
               "cursedbuckets:bava_lucket"
-            ],
-            "count": {
-              "min": 1,
-              "max": 1
-            }
+            ]
           }
         ]
       }
